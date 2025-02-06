@@ -1,0 +1,2466 @@
+{
+    "components": {
+        "schemas": {
+            "Code-conf-1_BU8M_302_Response": {
+                "description": "(Default) Description for response code 302",
+                "properties": {
+                    "param1": {
+                        "type": "string"
+                    },
+                    "param2": {
+                        "format": "int64",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "Code-conf1_V6KI_302_Response": {
+                "description": "(Default) Description for response code 302",
+                "properties": {
+                    "param1": {
+                        "type": "string"
+                    },
+                    "param2": {
+                        "format": "int64",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "Conf11_4BEK_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Conf12_DAST_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Conf12_EIHY_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Conf23_TD78_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Data11_WAQ0_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "ServerName": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Data11_WI95_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "ServerName": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Data11curl_EK60_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "ServerName": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Data1_07H2_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "ServerName": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Data3_1KZG_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "ServerName": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Data4_PY6R_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "ServerName": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Data5_NJUJ_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "ServerName": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Data_8S5H_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "ServerName": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Emailveri6_GHFA_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "data": {
+                        "type": "string"
+                    },
+                    "param1": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Schema11_K6DG_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "param1": {
+                        "type": "string"
+                    },
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Schema1_NIO0_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "param1": {
+                        "type": "string"
+                    },
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Test-bua3_6S0C_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "param1": {
+                        "type": "string"
+                    },
+                    "param2": {
+                        "format": "int64",
+                        "type": "integer"
+                    },
+                    "param3": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Test-bua3_AZA7_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Test-conf1_0TIT_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "debit": {
+                        "example": "3738542770",
+                        "type": "string"
+                    },
+                    "param1": {
+                        "format": "int64",
+                        "type": "integer"
+                    },
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Test-conf1_0TIT_302_Response": {
+                "description": "(Default) Description for response code 302",
+                "properties": {
+                    "debit": {
+                        "example": "3738542770",
+                        "type": "string"
+                    },
+                    "param1": {
+                        "format": "int64",
+                        "type": "integer"
+                    },
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Test1_8YA0_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "p1": {
+                        "type": "string"
+                    },
+                    "p2": {
+                        "type": "string"
+                    },
+                    "p3": {
+                        "type": "string"
+                    },
+                    "p4": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Test9_VOJM_200_Response": {
+                "description": "(Default) Description for response code 200",
+                "properties": {
+                    "debit": {
+                        "example": "3738542770",
+                        "type": "string"
+                    },
+                    "param1": {
+                        "type": "string"
+                    },
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Test9_VOJM_301_Response": {
+                "description": "(Default) Description for response code 301",
+                "properties": {
+                    "debit": {
+                        "example": "3738542770",
+                        "type": "string"
+                    },
+                    "param1": {
+                        "type": "string"
+                    },
+                    "param2": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "securitySchemes": {
+            "bearerAuth": {
+                "scheme": "bearer",
+                "type": "http"
+            }
+        }
+    },
+    "info": {
+        "title": "OpenAPI specification automatically generated by appsentinels.",
+        "version": "v1.0"
+    },
+    "openapi": "3.0.0",
+    "paths": {
+        "/jsonloopback/code-conf-1": {
+            "put": {
+                "description": "Description: details for /jsonloopback/code-conf-1",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "authorization",
+                        "in": "header",
+                        "name": "authorization",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param1": {
+                                        "type": "string"
+                                    },
+                                    "param2": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    }
+                                },
+                                "required": [
+                                    "param1",
+                                    "param2"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "302": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Code-conf-1_BU8M_302_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 302"
+                    },
+                    "502": {
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        },
+                        "description": "(Default) Description for response error code 502"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/code-conf1": {
+            "put": {
+                "description": "Description: details for /jsonloopback/code-conf1",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "Authorization",
+                        "in": "header",
+                        "name": "Authorization",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param1": {
+                                        "type": "string"
+                                    },
+                                    "param2": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "request": {
+                                        "items": {
+                                            "properties": {}
+                                        },
+                                        "type": "array"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "responses": {
+                    "302": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Code-conf1_V6KI_302_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 302"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/jsonloopback/conf11": {
+            "put": {
+                "description": "Description: details for /jsonloopback/conf11",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Conf11_4BEK_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/conf12": {
+            "post": {
+                "description": "Description: details for /jsonloopback/conf12",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Conf12_EIHY_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            },
+            "put": {
+                "description": "Description: details for /jsonloopback/conf12",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param2": {
+                                        "type": "string"
+                                    },
+                                    "root": {
+                                        "items": {
+                                            "properties": {
+                                                "param2": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "type": "array"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Conf12_DAST_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/conf23": {
+            "post": {
+                "description": "Description: details for /jsonloopback/conf23",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Conf23_TD78_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/emailveri6": {
+            "put": {
+                "description": "Description: details for /jsonloopback/emailveri6",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "authorization",
+                        "in": "header",
+                        "name": "authorization",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "email",
+                        "in": "query",
+                        "name": "email",
+                        "required": false,
+                        "schema": {
+                            "format": "email",
+                            "pattern": "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "emil",
+                        "in": "query",
+                        "name": "emil",
+                        "required": false,
+                        "schema": {
+                            "format": "email",
+                            "pattern": "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "description": "Request body instance",
+                                "properties": {
+                                    "data": {
+                                        "type": "string"
+                                    },
+                                    "param1": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Emailveri6_GHFA_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/pii_info/someallinfo/data10": {
+            "post": {
+                "description": "Description: details for /jsonloopback/pii_info/someallinfo/data10",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/pii_info/someallinfo/data5": {
+            "post": {
+                "description": "Description: details for /jsonloopback/pii_info/someallinfo/data5",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "_actionid": {
+                                        "type": "string"
+                                    },
+                                    "mobileNo": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "ots": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "_actionid",
+                                    "mobileNo",
+                                    "ots"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/pii_info/someallinfo/data6": {
+            "post": {
+                "description": "Description: details for /jsonloopback/pii_info/someallinfo/data6",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "_actionid": {
+                                        "type": "string"
+                                    },
+                                    "mobileNo": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "ots": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "_actionid",
+                                    "mobileNo",
+                                    "ots"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/schema1": {
+            "put": {
+                "description": "Description: details for /jsonloopback/schema1",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param1": {
+                                        "type": "string"
+                                    },
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "param1",
+                                    "param2"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Schema1_NIO0_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/schema11": {
+            "put": {
+                "description": "Description: details for /jsonloopback/schema11",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param1": {
+                                        "type": "string"
+                                    },
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Schema11_K6DG_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/schema11curl": {
+            "put": {
+                "description": "Description: details for /jsonloopback/schema11curl",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/test-bua-1/tenant/test9": {
+            "put": {
+                "description": "Description: details for /jsonloopback/test-bua-1/tenant/test9",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "Authorization",
+                        "in": "header",
+                        "name": "Authorization",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "description": "Request body instance",
+                                "properties": {
+                                    "debit": {
+                                        "example": "3738542770",
+                                        "type": "string"
+                                    },
+                                    "param1": {
+                                        "type": "string"
+                                    },
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Test9_VOJM_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    },
+                    "301": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Test9_VOJM_301_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 301"
+                    },
+                    "502": {
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        },
+                        "description": "(Default) Description for response error code 502"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/jsonloopback/test-bua3": {
+            "post": {
+                "description": "Description: details for /jsonloopback/test-bua3",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Test-bua3_AZA7_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            },
+            "put": {
+                "description": "Description: details for /jsonloopback/test-bua3",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "description": "Request body instance",
+                                "properties": {
+                                    "param1": {
+                                        "type": "string"
+                                    },
+                                    "param2": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "param3": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Test-bua3_6S0C_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    },
+                    "500": {
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        },
+                        "description": "(Default) Description for response error code 500"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/test-conf1": {
+            "put": {
+                "description": "Description: details for /jsonloopback/test-conf1",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "authorization",
+                        "in": "header",
+                        "name": "authorization",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "description": "Request body instance",
+                                "properties": {
+                                    "debit": {
+                                        "example": "3738542770",
+                                        "type": "string"
+                                    },
+                                    "param1": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Test-conf1_0TIT_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    },
+                    "302": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Test-conf1_0TIT_302_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 302"
+                    }
+                }
+            }
+        },
+        "/jsonloopback/test1": {
+            "put": {
+                "description": "Description: details for /jsonloopback/test1",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "p1": {
+                                        "type": "string"
+                                    },
+                                    "p2": {
+                                        "type": "string"
+                                    },
+                                    "p3": {
+                                        "type": "string"
+                                    },
+                                    "p4": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "p1",
+                                    "p2",
+                                    "p3",
+                                    "p4"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Test1_8YA0_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/loopback/pii_info/someallinfo/data11": {
+            "post": {
+                "description": "Description: details for /loopback/pii_info/someallinfo/data11",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "_actionid": {
+                                        "type": "string"
+                                    },
+                                    "mobileNo": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "otpStatus": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "_actionid",
+                                    "mobileNo",
+                                    "otpStatus"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Data11_WAQ0_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/loopback/pii_info/someallinfo/data11curl": {
+            "post": {
+                "description": "Description: details for /loopback/pii_info/someallinfo/data11curl",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "_actionid": {
+                                        "type": "string"
+                                    },
+                                    "mobileNo": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "otpStatus": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "_actionid",
+                                    "mobileNo",
+                                    "otpStatus"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Data11curl_EK60_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/pii_info/someallinfo/data": {
+            "post": {
+                "description": "Description: details for /pii_info/someallinfo/data",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "PAN": {
+                                        "example": "AAAPZ1234C",
+                                        "type": "string"
+                                    },
+                                    "email": {
+                                        "example": "example@example.com",
+                                        "format": "email",
+                                        "pattern": "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",
+                                        "type": "string"
+                                    },
+                                    "mobile": {
+                                        "example": 9098979710,
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "param1": {
+                                        "type": "string"
+                                    },
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "PAN",
+                                    "email",
+                                    "mobile",
+                                    "param1",
+                                    "param2"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Data_8S5H_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/pii_info/someallinfo/data1": {
+            "post": {
+                "description": "Description: details for /pii_info/someallinfo/data1",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "PAN": {
+                                        "example": "AAAPZ1234C",
+                                        "type": "string"
+                                    },
+                                    "email": {
+                                        "example": "example@example.com",
+                                        "format": "email",
+                                        "pattern": "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",
+                                        "type": "string"
+                                    },
+                                    "mob": {
+                                        "type": "string"
+                                    },
+                                    "param1": {
+                                        "type": "string"
+                                    },
+                                    "param2": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "PAN",
+                                    "email",
+                                    "mob",
+                                    "param1",
+                                    "param2"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Data1_07H2_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/pii_info/someallinfo/data11": {
+            "post": {
+                "description": "Description: details for /pii_info/someallinfo/data11",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "_actionid": {
+                                        "type": "string"
+                                    },
+                                    "mobileNo": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "otpStatus": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "_actionid",
+                                    "mobileNo",
+                                    "otpStatus"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Data11_WI95_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/pii_info/someallinfo/data3": {
+            "post": {
+                "description": "Description: details for /pii_info/someallinfo/data3",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "_actionid": {
+                                        "type": "string"
+                                    },
+                                    "mobileNo": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "otpStatus": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "_actionid",
+                                    "mobileNo",
+                                    "otpStatus"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Data3_1KZG_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/pii_info/someallinfo/data4": {
+            "post": {
+                "description": "Description: details for /pii_info/someallinfo/data4",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "OTS": {
+                                        "type": "string"
+                                    },
+                                    "_actionid": {
+                                        "type": "string"
+                                    },
+                                    "mobileNo": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    }
+                                },
+                                "required": [
+                                    "OTS",
+                                    "_actionid",
+                                    "mobileNo"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Data4_PY6R_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        },
+        "/pii_info/someallinfo/data5": {
+            "post": {
+                "description": "Description: details for /pii_info/someallinfo/data5",
+                "parameters": [
+                    {
+                        "description": "Accept",
+                        "in": "header",
+                        "name": "Accept",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "content-type",
+                        "in": "header",
+                        "name": "content-type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "host",
+                        "in": "header",
+                        "name": "host",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "description": "user-agent",
+                        "in": "header",
+                        "name": "user-agent",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "additionalProperties": false,
+                                "description": "Request body instance",
+                                "properties": {
+                                    "_actionid": {
+                                        "type": "string"
+                                    },
+                                    "mobileNo": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "ots": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "_actionid",
+                                    "mobileNo",
+                                    "ots"
+                                ],
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Data5_NJUJ_200_Response"
+                                }
+                            }
+                        },
+                        "description": "(Default) Description for response code 200"
+                    }
+                }
+            }
+        }
+    },
+    "servers": [
+        {
+            "url": "sudharsanam.httpservice.ai.com:9000"
+        }
+    ],
+    "tags": []
+}
